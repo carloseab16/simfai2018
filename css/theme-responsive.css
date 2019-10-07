@@ -1,0 +1,2457 @@
+/*------------------------------------------------------------------
+Project:	evont - Responsive 
+Version:	1.1
+Last change:	14/05/15 [fixed Float bug, vf]
+Author:	Janxcode
+/*------------------------------------------------------------------
+/* Note: Design for a width 1024 Desktop
+================================================== */
+
+
+	@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	
+	
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    width: 46.05% !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social ul {
+		padding: 7px 0px 0px 0px !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social li i {
+		height: 27px !important;
+		width: 27px !important;
+		font-size: 12px !important;
+		line-height: 27px !important;
+	}
+	
+
+
+		.grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 32.2% !important;
+		}
+		
+		
+		.grid-item.grid-width-2 {
+			width: 48.6% !important;
+		}
+
+		.grid-item {
+			width: 23.8% !important;
+		}
+
+		.jx-evont-speakers-area ul.socail li a {
+			height: 50px !important;
+			width: 50px !important;
+			line-height: 50px !important;
+			font-size: 25px !important;
+		}
+
+		.jx-evont-partner-logo-list .bottom-border{
+			margin-left: 245px !important;
+		}
+
+	/*===================================================
+		 BOXED WIDTH 
+	====================================================*/
+		
+		.boxed {
+			width:100% !important;
+		}
+		
+		.boxed .jx-evont-header.jx-evont-sticky.fixed {
+			width:100% !important;
+		}
+	
+			/*---------------------------------------------------------------
+		[1.0 Venue ]
+		---------------------------------------------------------------*/
+
+		.jx-venue-1 {
+			 font-size: 13px;
+		}
+
+		.jx-venue-1 .jx-venue-item .title {
+			 padding: 7px 20px;
+			 font-size: 12px;
+		}
+
+		.jx-venue-1 .jx-venue-item .average-point {
+			font-size: 14px;
+			height: 40px;
+			width: 40px;
+			padding-top: 6px;
+		}
+		
+		
+		.jx-venue-1 .detail-list ul li {
+ 		    font-size: 13px;
+		}
+		
+		.jx-venue-1 .detail-list ul li i {
+			font-size: 14px;
+		}
+		
+		.jx-venue-1 .average .price {
+    		font-size: 20px;
+		}
+	
+	
+		/*---------------------------------------------------------------
+		  [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-teammember h3 {
+			bottom:-100px;
+		}
+		
+		/*---------------------------------------------------------------
+		  [11.0 Ticket Form  ]
+		----------------------------------------------------------------*/
+		
+		 .jx-evont-ticket-from {
+			padding: 0px 75px !important;
+		 }
+	
+
+		/*---------------------------------------------------------------
+		  [11.0 Header  ]
+		----------------------------------------------------------------*/
+		
+		.menu-main-menu-container {display: none !important;}
+		
+		.header .shopping-cart {
+    position: absolute !important;
+    top: 30px !important;
+    right: 80px !important;
+    font-size: 23px;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    text-align: right;
+}
+
+.slicknav_menu {
+    display: block !important;
+}
+
+		/*---------------------------------------------------------------
+		[16.0 Schedule ]
+		----------------------------------------------------------------*/
+		.programs_item .right-side {
+			width: 485px !important;
+		}
+	
+	
+	
+	
+		/*---------------------------------------------------------------
+		[3.0 Home SLIDER ]
+		---------------------------------------------------------------*/
+
+
+			.jx-big-date {
+				font-size: 200px !important;
+			}
+			
+			.jx-month-small {
+				padding-top: 12px !important;
+				font-size: 40px !important;
+			}
+			
+			.jx-month-small .slider-year {
+			    font-size: 50px !important;
+			}
+			
+			.jx-month-small .event-title {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 30px !important;
+				left: 50% !important;
+				margin-left: -60px !important;
+			}
+			
+			.jx-month-small .event-ticket-btn {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 120px !important;
+				margin-left: -65px !important;
+			}
+			
+			.jx-evont-hero-title h2 {
+				font-size: 40px !important;
+			}
+			
+			.jx-evont-hero-title h3 {
+				font-size: 40px !important;
+			}
+
+	
+		/*---------------------------------------------------------------
+		[3.0 SUBSCRIBE ]
+		---------------------------------------------------------------*/
+
+
+			.jx-evont-get-updates {
+				padding: 14px 0px 0px 0px !important;
+			}
+
+	}
+	
+/* #Tablet (Portrait)
+================================================== */
+ 
+    /* Note: Design for a width of 768px */
+ 
+    @media only screen and (min-width: 768px) and (max-width: 959px) {	
+	
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 46.08% !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social ul {
+		padding: 7px 0px 0px 0px !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social li i {
+		height: 27px !important;
+		width: 27px !important;
+		font-size: 12px !important;
+		line-height: 27px !important;
+	}
+	
+	
+	
+    	.jx-flex-caption .caption-head{
+			font-size: 30px !important;
+		}
+		.jx-flex-caption .caption-head i{
+			font-size: 32px !important;
+		}
+		.jx-flex-caption{
+			right: 25px !important;
+		}
+		.jx-flex-caption p{
+			display: none !important;
+		}
+    	.jx-evont-career-info > div{
+			display: block !important;
+			width: 100% !important;
+		}
+    	.jx-evont-blog-title-metabox .jx-evont-title{
+			font-size: 33px !important;
+			height: auto !important;
+		}
+	
+		.jx-evont-partner-logo-list .bottom-border{
+			margin-left: 245px !important;
+		}
+		.jx-evont-timeline {
+		    margin: 0;
+		    clear: both !important;
+		}
+		.jx-evont-timeline-item {
+		    margin-bottom: 65px;
+		    font-size: 13px !important;
+		    height: 80px;
+		}
+		.jx-evont-timeline .jx-evont-timeline-item .date-position {
+		    float: left !important;
+		}
+		.jx-evont-timeline .item-position {
+		    float: left !important;
+		    width: 75% !important;
+		}
+		
+		
+			/*===================================================
+		 BOXED WIDTH 
+	====================================================*/
+		
+		.boxed {
+			width:100% !important;
+		}
+		
+		.boxed .jx-evont-header.jx-evont-sticky.fixed {
+			width:100% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		[1.0 Venue ]
+		---------------------------------------------------------------*/
+
+		.jx-venue-1 {
+			 font-size: 13px;
+		}
+
+		.jx-venue-1 .jx-venue-item .title {
+			 padding: 7px 20px;
+			 font-size: 12px;
+		}
+
+		.jx-venue-1 .jx-venue-item .average-point {
+			font-size: 14px;
+			height: 40px;
+			width: 40px;
+			padding-top: 6px;
+		}
+		
+		
+		.jx-venue-1 .detail-list ul li {
+ 		    font-size: 13px;
+		}
+		
+		.jx-venue-1 .detail-list ul li i {
+			font-size: 14px;
+		}
+		
+		.jx-venue-1 .average .price {
+    		font-size: 20px;
+		}
+	
+	
+		/*---------------------------------------------------------------
+		  [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+		
+		.grid-item-width2 {
+			width: 33.3%;
+		}
+		
+		.jx-evont-teammember .overlay .overlay-inner {
+			top:0px;
+		}
+		
+		.jx-evont-teammember h3 {
+			bottom:-100px;
+		}
+		
+
+
+		.jx-evont-teammember .grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 32.0% !important;
+		}
+
+		.grid-item-width2 {
+			width: 23.6% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		  [9.0 Tagline  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-tagline-2 {
+   			padding: 0px 10px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-subtitle {
+			font-size: 40px;
+			line-height: 40px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-title {
+			font-size: 28px;
+			line-height: 28px;
+		}
+		
+		/*---------------------------------------------------------------
+		[9.0 Counter-up  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-counter-icon i {
+			font-size: 50px;
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+		}
+		
+		.jx-evont-counter-up .count_number {
+			font-size: 40px;
+			line-height: 42px;
+		}
+
+		.jx-evont-counter-up .counter_text {
+			font-size: 20px;
+		}
+
+		
+		/*---------------------------------------------------------------
+		  [11.0 Ticket Form  ]
+		----------------------------------------------------------------*/
+		
+		 .jx-evont-ticket-from {
+			padding: 0px !important;
+		 }
+		 
+		 /*---------------------------------------------------------------
+		  [11.0 Header  ]
+		----------------------------------------------------------------*/
+		
+		.menu-main-menu-container {display: none !important;}
+		
+		.header .shopping-cart {
+			position: absolute !important;
+			top: 30px !important;
+			right: 80px !important;
+			font-size: 23px;
+			color: #fff;
+			height: 50px;
+			width: 50px;
+			text-align: right;
+		}
+
+
+		 
+		 /*---------------------------------------------------------------
+		[14.0 Speakers  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-speakers-area h3 {
+			font-size: 20px !important;
+		}
+		
+		.jx-evont-speakers-area .jx-evont-speaker-item span {
+			font-size: 12px !important;
+		}
+		
+		.jx-evont-speakers-area ul.socail li a {
+			height: 40px !important;
+			width: 40px !important;
+			line-height: 35px !important;
+			font-size: 20px !important;
+		}
+
+		/*---------------------------------------------------------------
+		  [16.0 Schedule ]
+		----------------------------------------------------------------*/
+
+		.programs_item.style-1 .time {
+			font-size: 30px !important;
+		}
+
+
+		.programs_item .des {
+			font-size: 13px;
+		}
+
+		.programs_item.style-1 .speaker-image {
+			position: relative;
+			z-index: 9999;
+			margin-left: 0px !important;
+		}
+		
+		
+		.programs_item .left-side {
+			width: 300px !important;
+			padding: 30px 15px 20px 15px;
+		}
+
+		.programs_item .right-side {
+			width: 405px !important;
+		}
+		.programs_item.style-2 {
+			padding:0px 15px 0px 15px !important;
+		}
+
+		.programs_item.style-2 .time {
+			min-width:100px !important;
+		}
+		.programs_item.style-2 .time-hrs {
+			font-size:50px !important;
+		}
+		.programs_item.style-2 .time-minutes {
+			line-height: 20px !important;
+			font-size: 18px !important;
+			top: -10px !important;
+		}
+		.programs_item.style-2 .image {
+			padding-left: 5px !important;
+		}
+		
+		
+		/*---------------------------------------------------------------
+		[7.0 Protfolio  ]
+		----------------------------------------------------------------*/
+
+		.grid-item {
+			width: 23.6% !important;
+		}
+		.grid-item.grid-width-2 {
+			width: 48.4% !important;
+		}
+		.grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 31.9% !important;
+		}
+
+
+		/*---------------------------------------------------------------
+		  [15.0 SECTION TITLE  ]
+		----------------------------------------------------------------*/
+
+
+		.jx-evont-title-1 h1 {
+			font-size: 22px !important;
+		}
+
+
+		/*---------------------------------------------------------------
+		[3.0 Home SLIDER ]
+		---------------------------------------------------------------*/
+
+
+			.jx-big-date {
+				font-size: 200px !important;
+			}
+			
+			.jx-month-small {
+				padding-top: 12px !important;
+				font-size: 40px !important;
+			}
+			
+			.jx-month-small .slider-year {
+			    font-size: 50px !important;
+			}
+			
+			.jx-month-small .event-title {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 30px !important;
+				left: 50% !important;
+				margin-left: -60px !important;
+			}
+			
+			.jx-month-small .event-ticket-btn {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 120px !important;
+				margin-left: -65px !important;
+			}
+			
+
+
+	
+
+			.jx-evont-hero-title h2 {
+				font-size: 40px !important;
+			}
+			
+			.jx-evont-hero-title h3 {
+				font-size: 40px !important;
+			}
+	
+		
+		
+		
+	}
+	
+
+	
+ 
+	
+	/* MOBILE PORTRAIT SIZE TO MOBILE LANDSCAPE SIZE (DEVICES AND BROWSERS)-------------- */
+	@media only screen and (max-width:399px) {
+	
+	
+	.jx-evont-blog-section.small .blog-item {
+		padding-bottom: 50px !important;
+		display: inline-block !important;
+	}
+
+	/*===================================================
+		 BOXED WIDTH 
+	====================================================*/
+		
+		.boxed {
+			width:100% !important;
+		}
+		
+		.boxed .jx-evont-header.jx-evont-sticky.fixed {
+			width:100% !important;
+		}
+		
+		.jx-evont-timeline {
+		    margin: 0;
+		    clear: both !important;
+		}
+		.jx-evont-timeline-item {
+		    margin-bottom: 65px;
+		    font-size: 13px !important;
+		}
+		.jx-evont-timeline .jx-evont-timeline-item .date-position {
+		    float: left !important;
+		}
+		.jx-evont-timeline .item-position {
+		    float: left !important;
+		    width: 60% !important;
+		}
+		.jx-evont-partner-logo-list .web_link + .bottom-border{
+			margin-left: 0 !important;
+		}
+		
+		
+		/*---------------------------------------------------------------
+		  [16.0 Schedule ]
+		----------------------------------------------------------------*/
+		
+		
+		.programs_item h3 {
+			z-index: 9999;
+			position: relative;
+		}
+		
+		.programs_item p {
+			z-index: 9999;
+			position: relative;
+		}
+		
+		.programs_item.style-1 .speaker-image {
+			float: none;
+			margin-left: 0px;
+			margin-right: 0px;
+			position: relative;
+			z-index: 9999;
+		}
+		
+		.programs_item .name {
+			z-index: 9999;
+			position: relative;
+		}
+		
+		.programs_item .des {
+			position: relative;
+			z-index: 9999;
+		}
+		
+		.programs_item .left-side {
+    		width: 100% !important;
+		}
+
+		.programs_item .right-side {
+			width: 100% !important;
+		}
+		
+		.programs_item.style-2 {
+			padding:0px 0px 0px 15px !important;
+		}
+
+		.programs_item.style-2 .time {
+			 min-width: 100px;
+		}
+
+		.programs_item.style-2 .time-minutes {
+			line-height: 16px !important;
+			font-size: 16px !important;
+			top: -5px !important;
+		}
+
+		.programs_item.style-2 .time-hrs {
+			float: left !important;
+			font-size: 40px !important;
+		}
+
+		
+		/*---------------------------------------------------------------
+ 			 [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+
+
+		.jx-evont-teammember .grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 100% !important;
+		}
+
+		.grid-item-width2 {
+			width: 100% !important;
+		}
+
+		/*---------------------------------------------------------------
+ 			 [7.0 Protfolio  ]
+		----------------------------------------------------------------*/
+
+		.grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 100% !important;
+		}
+		
+		.grid-item.grid-width-2 {
+			width: 100% !important;
+		}
+		
+		.grid-item {
+			width: 100% !important;
+		}
+		
+	}
+	
+/* #iPad (Landscape) and (Portrait)
+================================================== */
+	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social ul {
+		padding: 7px 0px 0px 0px !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social li i {
+		height: 27px !important;
+		width: 27px !important;
+		font-size: 12px !important;
+		line-height: 27px !important;
+	}
+	
+	
+	/*===================================================
+		 BOXED WIDTH 
+	====================================================*/
+		
+		.boxed {
+			width:100% !important;
+		}
+		
+		.boxed .jx-evont-header.jx-evont-sticky.fixed {
+			width:100% !important;
+		}
+	
+			/*---------------------------------------------------------------
+		[1.0 Venue ]
+		---------------------------------------------------------------*/
+
+		.jx-venue-1 {
+			 font-size: 13px;
+		}
+
+		.jx-venue-1 .jx-venue-item .title {
+			 padding: 7px 20px;
+			 font-size: 12px;
+		}
+
+		.jx-venue-1 .jx-venue-item .average-point {
+			font-size: 14px;
+			height: 40px;
+			width: 40px;
+			padding-top: 6px;
+		}
+		
+		
+		.jx-venue-1 .detail-list ul li {
+ 		    font-size: 13px;
+		}
+		
+		.jx-venue-1 .detail-list ul li i {
+			font-size: 14px;
+		}
+		
+		.jx-venue-1 .average .price {
+    		font-size: 20px;
+		}
+	
+	
+		/*---------------------------------------------------------------
+		  [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-teammember h3 {
+			bottom:-100px;
+		}
+		
+		/*---------------------------------------------------------------
+		  [11.0 Ticket Form  ]
+		----------------------------------------------------------------*/
+		
+		 .jx-evont-ticket-from {
+			padding: 0px 75px !important;
+		 }
+	
+
+		/*---------------------------------------------------------------
+		  [11.0 Header  ]
+		----------------------------------------------------------------*/
+		
+		.menu-main-menu-container {display: none !important;}
+		
+		.header .shopping-cart {
+    position: absolute !important;
+    top: 30px !important;
+    right: 80px !important;
+    font-size: 23px;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    text-align: right;
+}
+
+.slicknav_menu {
+    display: block !important;
+}
+
+		/*---------------------------------------------------------------
+		[16.0 Schedule ]
+		----------------------------------------------------------------*/
+		.programs_item .right-side {
+			width: 560px !important;
+		}
+	
+	
+	
+	
+		/*---------------------------------------------------------------
+		[3.0 Home SLIDER ]
+		---------------------------------------------------------------*/
+
+
+			.jx-big-date {
+				font-size: 200px !important;
+			}
+			
+			.jx-month-small {
+				padding-top: 12px !important;
+				font-size: 40px !important;
+			}
+			
+			.jx-month-small .slider-year {
+			    font-size: 50px !important;
+			}
+			
+			.jx-month-small .event-title {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 30px !important;
+				left: 50% !important;
+				margin-left: -60px !important;
+			}
+			
+			.jx-month-small .event-ticket-btn {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 120px !important;
+				margin-left: -65px !important;
+			}
+			
+			.jx-evont-hero-title h2 {
+				font-size: 40px !important;
+			}
+			
+			.jx-evont-hero-title h3 {
+				font-size: 40px !important;
+			}
+	
+	
+			.jx-evont-blog-section h3 {
+				font-size: 20px !important;
+			}
+
+	
+	}
+	
+	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+	
+	
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 46.08% !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social ul {
+		padding: 7px 0px 0px 0px !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social li i {
+		height: 27px !important;
+		width: 27px !important;
+		font-size: 12px !important;
+		line-height: 27px !important;
+	}
+	
+	/*===================================================
+		 BOXED WIDTH 
+	====================================================*/
+		
+		.boxed {
+			width:100% !important;
+		}
+		
+		.boxed .jx-evont-header.jx-evont-sticky.fixed {
+			width:100% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		[1.0 Venue ]
+		---------------------------------------------------------------*/
+
+		.jx-venue-1 {
+			 font-size: 13px;
+		}
+
+		.jx-venue-1 .jx-venue-item .title {
+			 padding: 7px 20px;
+			 font-size: 12px;
+		}
+
+		.jx-venue-1 .jx-venue-item .average-point {
+			font-size: 14px;
+			height: 40px;
+			width: 40px;
+			padding-top: 6px;
+		}
+		
+		
+		.jx-venue-1 .detail-list ul li {
+ 		    font-size: 13px;
+		}
+		
+		.jx-venue-1 .detail-list ul li i {
+			font-size: 14px;
+		}
+		
+		.jx-venue-1 .average .price {
+    		font-size: 20px;
+		}
+	
+	
+		/*---------------------------------------------------------------
+		  [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+		
+		.grid-item-width2 {
+			width: 33.3%;
+		}
+		
+		.jx-evont-teammember .overlay .overlay-inner {
+			top:0px;
+		}
+		
+		.jx-evont-teammember h3 {
+			bottom:-100px;
+		}
+		
+
+
+		.jx-evont-teammember .grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 32.0% !important;
+		}
+
+		.grid-item-width2 {
+			width: 23.6% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		  [9.0 Tagline  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-tagline-2 {
+   			padding: 0px 10px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-subtitle {
+			font-size: 40px;
+			line-height: 40px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-title {
+			font-size: 28px;
+			line-height: 28px;
+		}
+		
+		/*---------------------------------------------------------------
+		[9.0 Counter-up  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-counter-icon i {
+			font-size: 50px;
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+		}
+		
+		.jx-evont-counter-up .count_number {
+			font-size: 40px;
+			line-height: 42px;
+		}
+
+		.jx-evont-counter-up .counter_text {
+			font-size: 20px;
+		}
+
+		
+		/*---------------------------------------------------------------
+		  [11.0 Ticket Form  ]
+		----------------------------------------------------------------*/
+		
+		 .jx-evont-ticket-from {
+			padding: 0px !important;
+		 }
+		 
+		 /*---------------------------------------------------------------
+		  [11.0 Header  ]
+		----------------------------------------------------------------*/
+		
+		.menu-main-menu-container {display: none !important;}
+		
+		.header .shopping-cart {
+			position: absolute !important;
+			top: 30px !important;
+			right: 80px !important;
+			font-size: 23px;
+			color: #fff;
+			height: 50px;
+			width: 50px;
+			text-align: right;
+		}
+
+
+		 
+		 /*---------------------------------------------------------------
+		[14.0 Speakers  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-speakers-area h3 {
+			font-size: 20px !important;
+		}
+		
+		.jx-evont-speakers-area .jx-evont-speaker-item span {
+			font-size: 12px !important;
+		}
+		
+		.jx-evont-speakers-area ul.socail li a {
+			height: 40px !important;
+			width: 40px !important;
+			line-height: 35px !important;
+			font-size: 20px !important;
+		}
+
+		/*---------------------------------------------------------------
+		  [16.0 Schedule ]
+		----------------------------------------------------------------*/
+
+		.programs_item.style-1 .time {
+			font-size: 30px !important;
+		}
+
+
+		.programs_item .des {
+			font-size: 13px;
+		}
+
+		.programs_item.style-1 .speaker-image {
+			position: relative;
+			z-index: 9999;
+			margin-left: 0px !important;
+		}
+		
+		
+		.programs_item .left-side {
+			width: 300px !important;
+			padding: 30px 15px 20px 15px;
+		}
+
+		.programs_item .right-side {
+			width: 405px !important;
+		}
+		.programs_item.style-2 {
+			padding:0px 15px 0px 15px !important;
+		}
+
+		.programs_item.style-2 .time {
+			min-width:100px !important;
+		}
+		.programs_item.style-2 .time-hrs {
+			font-size:50px !important;
+		}
+		.programs_item.style-2 .time-minutes {
+			line-height: 20px !important;
+			font-size: 18px !important;
+			top: -10px !important;
+		}
+		.programs_item.style-2 .image {
+			padding-left: 5px !important;
+		}
+		
+		
+		/*---------------------------------------------------------------
+		[7.0 Protfolio  ]
+		----------------------------------------------------------------*/
+
+		.grid-item {
+			width: 23.6% !important;
+		}
+		.grid-item.grid-width-2 {
+			width: 48.4% !important;
+		}
+		.grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 31.9% !important;
+		}
+
+
+		/*---------------------------------------------------------------
+		  [15.0 SECTION TITLE  ]
+		----------------------------------------------------------------*/
+
+
+		.jx-evont-title-1 h1 {
+			font-size: 22px !important;
+		}
+
+
+		/*---------------------------------------------------------------
+		[3.0 Home SLIDER ]
+		---------------------------------------------------------------*/
+
+
+			.jx-big-date {
+				font-size: 200px !important;
+			}
+			
+			.jx-month-small {
+				padding-top: 12px !important;
+				font-size: 40px !important;
+			}
+			
+			.jx-month-small .slider-year {
+			    font-size: 50px !important;
+			}
+			
+			.jx-month-small .event-title {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 30px !important;
+				left: 50% !important;
+				margin-left: -60px !important;
+			}
+			
+			.jx-month-small .event-ticket-btn {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 120px !important;
+				margin-left: -65px !important;
+			}
+			
+			
+			.jx-evont-hero-title h2 {
+				font-size: 40px !important;
+			}
+			
+			.jx-evont-hero-title h3 {
+				font-size: 40px !important;
+			}
+	
+
+
+			.jx-evont-blog-section h3 {
+				font-size: 20px !important;
+			}
+
+
+	}
+
+	@media only screen and (max-width: 840px) { 
+	
+		.programs_item .left-side {
+			width: 320px !important;
+		}
+		
+		.programs_item .right-side {
+			width: 443px !important;
+		}
+		
+
+		/*---------------------------------------------------------------
+		[3.0 SUBSCRIBE ]
+		---------------------------------------------------------------*/
+
+
+		.jx-evont-get-updates {
+			padding: 14px 0px 0px 0px !important;
+		}
+
+		
+	}
+
+	
+	@media only screen and (max-width: 480px) {
+	
+		.jx-evont-blog-section.small .blog-item {
+		padding-bottom: 50px !important;
+		display: inline-block !important;
+	}
+		.jx-flex-caption .caption-head{
+			font-size: 30px !important;
+		}
+		.jx-flex-caption .caption-head i{
+			font-size: 32px !important;
+		}
+		.jx-flex-caption{
+			right: 25px !important;
+		}
+		.jx-flex-caption p{
+			display: none !important;
+		}
+		.jx-evont-career-info > div{
+			display: block !important;
+			width: 100% !important;
+		}
+		.jx-evont-blog-title-metabox .jx-evont-title{
+			font-size: 33px !important;
+			height: auto !important;
+		}
+		.jx-evont-service-content .jx-evont-banner-1 .banner-caption h1:first-child{font-size: 36px !important}
+		.jx-evont-service-content .jx-evont-banner-1 .banner-caption h1:nth-child(2){font-size: 40px !important}
+		div.jx-evont-common_page_header h1.pagetitle{font-size: 22px !important;}
+		.jx-evont-portfolio-columns .portfolio-item{
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+		.jx-evont-blog-meta ul li{
+			display: block !important;
+			padding: 0 !important;
+		}
+		.jx-evont-widget-newsletter .jx-evont-form-wrapper button{
+			width: 15% !important;
+		}
+		.jx-flex-caption .caption-head{
+	    font-weight: 900;
+	    font-size: 43px;
+	    color: #333;
+	    text-align: left;
+	    line-height: normal;
+	    margin-bottom: 10px !important;
+		}
+		.jx-flex-caption{
+			top: 15px !important;
+		}
+		
+		.field-row .cur-from, .field-row .cur-to {
+			width:100%;
+		}
+		
+		
+			
+		
+		
+		/*---------------------------------------------------------------
+		[1.0 Venue ]
+		---------------------------------------------------------------*/
+
+		.jx-venue-1 {
+			margin-bottom:40px;
+		}
+		
+		/*---------------------------------------------------------------
+		[2.0 Contact Address ]
+		---------------------------------------------------------------*/
+		
+		.jx-evont-contact-address {
+		    margin-bottom: 40px;
+		}
+		
+		/*---------------------------------------------------------------
+		[3.0 Newsletter ]
+		---------------------------------------------------------------*/
+
+		.jx-evont-get-updates-2 .subtitle {
+			width:100%;
+		}
+		
+		
+		/*---------------------------------------------------------------
+		[4.0 Partner Logo ]
+		---------------------------------------------------------------*/
+		
+		.jx-evont-partner ul li {
+			width: 50% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		[5.0 Services Box ]
+		---------------------------------------------------------------*/
+
+		.jx-evont-servicebox-1 {
+			margin-bottom:40px;		
+		}
+		
+
+
+		/*---------------------------------------------------------------
+		  [6.0 Count down  ]
+		----------------------------------------------------------------*/
+
+		.jx_evont_countdown ul li {
+			margin-right: 20px !important;
+		}
+		.main-titlebar .jx_evont_countdown ul li .count {
+			font-size: 40px !important;
+		}
+		
+		.main-titlebar .jx_evont_countdown ul li:last-child .count {
+			font-size: 40px !important;
+		}
+		
+		.jx_evont_countdown ul li .count-text {
+			font-size: 25px !important;
+		}
+
+		/*------------ Page Titlebar Count down------------*/
+
+		.jx_evont_countdown .jx-evont-countdown-title {
+			font-size: 16px;
+			line-height: 20px;		
+		}
+		.jx_evont_countdown .jx-evont-countdown-subtitle {
+			font-size: 30px;
+			line-height: 30px;
+		}
+		.jx_evont_countdown.sc ul li {
+			margin-right: 10px;
+			padding-right: 10px;
+		}
+		.jx_evont_countdown.sc ul li .count {
+			font-size: 42px;
+			line-height: 33px;
+		}
+		.jx_evont_countdown.sc ul li .count-text {
+			font-size: 23px;
+		}
+		.jx_evont_countdown.sc ul li:last-child .count {
+			font-size: 42px;
+		}
+		
+		/*---------------------------------------------------------------
+		  [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+		
+		.grid-item-width2 {
+			width: 100%;
+		}
+		
+		.jx-evont-teammember .overlay .overlay-inner {
+			top:0px;
+		}
+		
+		.jx-evont-teammember h3 {
+			bottom:-160px;
+		}
+
+		/*---------------------------------------------------------------
+		[8.0 Testimonials  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-testimonials-1 .item {
+			margin-bottom:40px;
+		}
+
+		/*---------------------------------------------------------------
+		[9.0 Counter-up  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-countup {
+			margin: auto;
+			width: 250px;
+			margin-bottom: 40px;
+		}
+
+
+		/*---------------------------------------------------------------
+		[10.0 Footer  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-footer.jx-footer-1 .jx-evont-social li i {
+			height: 50px !important;
+			width: 50px !important;
+			font-size: 25px !important;
+			line-height: 50px !important;
+		}
+
+		.jx-evont-footer.jx-footer-1 .jx-evont-social ul li {
+			margin-bottom: 15px !important;
+		}
+
+		/*---------------------------------------------------------------
+		  [11.0 Header  ]
+		----------------------------------------------------------------*/
+		
+
+		
+		.main-titlebar .jx-home-slider h2 {
+			font-size: 30px !important;
+		}
+		
+		.main-titlebar .jx-home-slider h3 {
+ 		    font-size: 50px !important;
+		}
+		
+		.jx-evont-hero-title h2 {
+			font-size: 30px !important;
+		}
+		.jx-evont-hero-title h3 {
+			font-size: 50px !important;
+		}
+
+
+		/*---------------------------------------------------------------
+		  [12.0 Ticket Form  ]
+		----------------------------------------------------------------*/
+		
+		 .jx-evont-ticket-from {
+			padding: 0px !important;
+			padding: 0px !important;
+		 }
+
+		/*---------------------------------------------------------------
+		  [13.0 Tagline  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-tagline-2 {
+			margin-bottom: 40px;
+			text-align: center;
+   			padding: 0px 10px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-subtitle {
+			font-size: 30px;
+			line-height: 40px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-title {
+			font-size: 20px;
+			line-height: 20px;
+		}
+		
+		/*---------------------------------------------------------------
+		  [15.0 BLOG  ]
+		----------------------------------------------------------------*/
+
+
+		.jx-evont-blog-section h3 {
+			font-size: 18px !important;
+		}
+
+
+		/*---------------------------------------------------------------
+		  [15.0 SECTION TITLE  ]
+		----------------------------------------------------------------*/
+
+
+			.jx-evont-title-1 h1 {
+				font-size: 22px !important;
+			}
+		
+		
+
+
+			.jx-evont-blog-section h3 {
+				font-size: 20px !important;
+			}
+
+			.jx-evont-share-box-icon .share-title {
+				float: left;
+			}
+			
+			
+			.comments-container ul ul {
+			margin:0px !important;
+			padding:0px !important;
+			}
+			
+			
+			.jx-evont-share-box-icon .share-title {
+				margin-right: 0px;
+				width: 100%;
+			}
+
+	}
+		
+	@media only screen and (max-width: 320px) {
+	
+		.jx-evont-blog-section.small .blog-item {
+		padding-bottom: 50px !important;
+		display: inline-block !important;
+	}
+	
+		.jx-evont-banner-1 .banner-caption{
+			padding: 0 10px !important;
+		}
+		.jx-evont-blog-title-metabox .jx-evont-title{
+			font-size: 30px !important;
+		}
+		.banner-caption h1:first-child{
+			font-size: 40px !important;
+		}
+		.jx-flex-caption .caption-head{
+	    font-weight: 900;
+	    font-size: 20px !important;
+	    color: #333;
+	    text-align: left;
+	    line-height: normal;
+	    margin-bottom: 5px !important;
+		}
+		.jx-flex-caption .caption-head i{
+		    background: #333333;
+		    color: #fbca01;
+		    font-style: normal;
+		    padding-left: 15px;
+		    padding-right: 15px;
+		    font-size: 20px !important;
+		}
+		.jx-flex-caption p{
+		    color: #333;
+		    text-align: left;
+		    font-size: 12px !important;
+		    line-height: 15px !important;
+		}
+		
+		.field-row .cur-from, .field-row .cur-to {
+			width:100%;
+		}
+		
+		
+	.jx-evont-teammember h3 {
+		bottom: -100px !important;
+	}
+
+			.comments-container ul ul {
+			margin:0px !important;
+			padding:0px !important;
+			}
+			.jx-evont-share-box-icon .share-title {
+				margin-right: 0px;
+				width: 100%;
+			}
+
+
+	}
+
+	@media screen and (min-width: 1200px) {
+		.jx-evont-partner-logo-list .bottom-border{
+			margin-left: 245px !important;
+		}
+		
+		.jx-evont-menubar .menunav {
+	 margin-right:0
+	}
+.jx-evont-widget-newsletter .jx-evont-form-wrapper input {
+    padding: 10px 13px;
+    float: left;
+    font-size: 14px;
+    border: 0px none;
+    background-color: #eee;
+    height: 40px;
+    border-radius: 0px;
+    width: 81% !important;
+    border: 1px solid #ddd;
+    
+}
+	}
+
+/* END Make the cart table responsive */
+
+@media (min-width:768px) and (max-width:991px) {
+		.jx-evont-menubar .menunav {
+		 margin-right:0
+		}
+		.jx-evont-widget-newsletter .jx-evont-form-wrapper input {
+			padding: 10px 13px;
+			float: left;
+			font-size: 14px;
+			border: 0px none;
+			background-color: #eee;
+			height: 40px;
+			border-radius: 0px;
+			width: 74% !important;
+			border: 1px solid #ddd;
+			border-right: none !important;
+		}
+		
+		.navbar-brand {
+		 padding:33px 0;
+		}
+		.submenu-menu {
+		 top:56px !important;
+		}
+		.slicknav_menu{
+			display: block !important;
+		}
+		.jx-evont-top-bar, .menu-main-menu-container .menu{display: none !important;}	
+		
+		.jx-evont-footer_address .spacer {
+		 margin-left:15px;
+		}
+		.jx-evont-footer_address h5 {
+		 font-size:17px;
+		}
+		
+		.jx-evont-banner-1 .image img{
+					height: 250px;
+				}
+}
+
+
+
+
+@media (min-width:991px) and (max-width:1200px) {
+		.jx-evont-footer_address .spacer {
+ margin-left:15px;
+}
+
+		.jx-evont-contact-form .contact-full-name,.jx-evont-contact-form .contact-email{
+		  width:100%;
+		  display: inline-block
+		}
+		.jx-evont-banner-1 .image img{
+			height: 250px;
+		}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.jx-evont-blog-section.small .blog-item {
+		padding-bottom: 50px !important;
+		display: inline-block !important;
+	}
+
+	.jx_evont_countdown {
+	    margin-top: 100px !important;
+	}
+		.jx-evont-footer_address {
+		 background:#fbca01;
+		 padding-top:20px;
+		 /*padding-bottom:20px;*/
+		}
+		.jx-evont-footer_address .address_column {
+		 padding:20px 0 20px 0;
+		}
+		.jx-evont-footer_address .spacer {
+		 margin-left:0;
+		}
+		.jx-evont-footer_address .bdr-right {
+		 border-right: dotted 0 #333333;
+		 border-bottom: dotted 1px #333333;
+		}
+		
+		.jx-evont-footer hr {
+		 margin:10px 0 20px 0;
+		 border-color:#cccccc
+		}
+		.jx-evont-footer ul.stripMenu {
+		 padding-top:15px;
+		}
+		.jx-evont-footer ul.stripMenu li {
+		 padding-right:15px;
+		 display:block;
+		 position:relative;
+		 border-bottom: solid 1px #b0b0b0;
+		 padding:5px 0
+		}
+		.jx-evont-footer ul.stripMenu li:last-child {
+		 border:0
+		}
+		.jx-evont-footer ul.stripMenu li:after {
+		 content:"";
+		}
+		
+		.jx-evont-footer .social {
+		 text-align:left;
+		 padding-top:25px;
+		}
+		.jx-evont-footer .social a {
+		 margin-left:0;
+		 margin-right:5px;
+		 margin-top: 5px;
+		}
+		
+		div.jx-evont-common_page_header h1.pagetitle {
+		 font-weight:700;
+		 font-size:32px;
+		 margin:0;
+		 padding:0;
+		 color:#333333;
+		 padding:40px 0
+		}
+		
+		.jx-evont-navbar-default .navbar-nav>.active>a, .jx-evont-navbar-default .navbar-nav>.active>a:focus, .jx-evont-navbar-default .navbar-nav>.active>a:hover {
+		 color:#000;
+
+		 background-color:#fbca01;
+		 border-radius:0 0 0 0
+		}
+		
+		.jx-evont-navbar-default .navbar-nav>li>a:focus, .jx-evont-navbar-default .navbar-nav>li>a:hover {
+		 color:#000;
+		 background-color:#fbca01;
+		 border-radius:0 0 0 0
+		}
+		
+		.jx-evont-servicebox-4, .jx-evont-blog-2 .blog-item{
+			margin-bottom: 10px;
+		 }
+		.jx-evont-menubar .menunav {
+		 margin-top:0;
+		}
+		.slicknav_menu{
+			display: block !important;
+		}
+		
+		.tp-static-layers{
+		  display: none !important;
+		}
+		.navbar-brand {
+		 float:left;
+		 padding:15px 15px;
+		 font-size:18px;
+		 line-height:20px;
+		 border-bottom: solid 0 #fbca01
+		}
+		.jx-evont-sendmoney{
+			margin-top: 40px !important;
+		}
+		.jx-title-head + .owl-carousel.owl-loaded{
+			display: block !important;
+			background: rgba(0,0,0,0.5) !important;
+		}
+		.owl-carousel.owl-loaded{
+			display: block !important;
+		}
+		.jx-evont-currency-2 .ex-rates{
+			margin-left: 0!important;
+			width: 100% !important;
+		}
+		.jx-evont-currency-2{
+			background:rgba(0, 0, 0, 0) !important;
+		}
+		
+		.jx-evont-menubar .menunav .navbar-nav>li {
+		 margin-left:0;
+		}
+		.jx-evont-menubar .menunav .navbar-nav>li>a {
+		 padding-top:8px;
+		 padding-bottom:8px;
+		 line-height:20px;
+		 padding-left:15px;
+		 padding-right:15px;
+		}
+		
+		.jx-evont-career-info > div{
+					display: block !important;
+					width: 100% !important;
+				}
+				.jx-evont-blog-title-metabox .jx-evont-title{
+					font-size: 33px !important;
+					height: auto !important;
+				}
+				.form-spacing-right{
+					margin-bottom: 10px;
+				}	
+				.copyright{
+					text-align:center;
+				}
+				#menu-footer-menu li{
+					border-bottom: none;
+					padding-top: 0px;
+				}
+				#menu-footer-menu{
+					text-align:center;
+				}
+				.social ul{
+					text-align: center;
+				}
+				.jx-evont-contact-form .contact-full-name,.jx-evont-contact-form .contact-email{
+				  width:100%;
+				  display: inline-block
+				}
+				
+		#right, .right{
+					float: right;
+					clear: both !important;
+					float: none !important;
+				}
+				.field-row .amount-input{
+					margin-right: 5px !important;
+				}
+				
+		.field-row .cur-from, .field-row .cur-to {
+			width:100%;
+		}		
+		
+		/* Woocommerce */
+		.woocommerce-page.product-columns-3.has-right-sidebar ul.products li,
+		.woocommerce-page.product-columns-3.has-left-sidebar ul.products li,
+		.woocommerce #content div.product div.summary,
+		.woocommerce div.product div.summary,
+		.woocommerce-page #content div.product div.summary,
+		.woocommerce-page div.product div.summary,
+		.woocommerce #content div.product div.images,
+		.woocommerce div.product div.images,
+		.woocommerce-page #content div.product div.images,
+		.woocommerce-page div.product div.images {
+			width: 100% !important;
+		}
+		.woocommerce .cart-collaterals .cross-sells,
+		.woocommerce-page .cart-collaterals .cross-sells,
+		.woocommerce .cart-collaterals .cart_totals,
+		.woocommerce-page .cart-collaterals .cart_totals {
+			width: 100% !important;
+		}
+		.woocommerce form .form-row-first,
+		.woocommerce form .form-row-last,
+		.woocommerce-page form .form-row-first,
+		.woocommerce-page form .form-row-last {
+			width: 100% !important;
+		}
+		.vc_col-sm-3 {
+			width: 100% !important;
+		}
+		.woocommerce .col2-set .col-1,
+		.woocommerce-page .col2-set .col-1,
+		.woocommerce .col2-set .col-2,
+		.woocommerce-page .col2-set .col-2 {
+			float: left;
+			width: 100% !important;
+		}
+
+
+
+}
+
+
+
+
+	/* MOBILE PORTRAIT SIZE TO MOBILE LANDSCAPE SIZE (DEVICES AND BROWSERS)-------------- */
+	@media only screen and (max-width:479px) {
+	
+	.jx_evont_countdown {
+	    margin-top: 70px !important;
+	}
+	
+	
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 100% !important;
+	}
+
+	.jx-evont-top-bar {
+		display:none !important; 
+	}
+	
+	.menu-footer-menu-container {
+		padding:30px 0px !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social ul {
+		float:none !important;
+	}
+	
+			.jx-evont-plan-section {
+				margin-bottom: 40px !important;
+			}
+	
+			.programs_item .right-side {
+				width: auto !important;
+			}
+	
+			.programs_item .left-side {
+				width: 100% !important;
+			}
+	
+		/*---------------------------------------------------------------
+		[3.0 Newsletter ]
+		---------------------------------------------------------------*/
+			.jx-evont-get-updates {
+				padding: 0px !important;
+			}
+			
+			.jx-evont-get-updates .less_right {
+				padding-right: 0px !important;
+			}
+
+			.jx-evont-get-updates .less_left {
+				padding-left: 15px !important;
+				padding-right:0px !important;
+			}
+
+
+
+		/*---------------------------------------------------------------
+		[3.0 Home SLIDER ]
+		---------------------------------------------------------------*/
+
+
+			.jx-big-date {
+				font-size: 100px !important;
+			}
+			
+			.jx-month-small {
+				padding-top: 7px !important;
+				font-size: 20px !important;
+			}
+			
+			.jx-month-small .slider-year {
+			    font-size: 30px !important;
+			}
+			
+			.jx-month-small .event-title {
+				font-size: 14px !important;
+				padding: 10px 80px 10px 10px !important;
+				margin-top: 20px !important;
+				left: 60% !important;
+				margin-left: -60px !important;
+			}
+			
+			.jx-month-small .event-ticket-btn {
+				padding: 10px 80px 10px 10px !important;
+				margin-top: 60px !important;
+				font-size: 14px !important;
+			}
+			
+			.jx-month-small .slider-year {
+				padding-top: 20px !important;
+			}
+
+
+		.jx-evont-speakers-area ul.socail li a {
+			height: 70px !important;
+			width: 70px !important;
+			line-height: 70px !important;
+			font-size: 30px !important;
+		}
+		
+		.woocommerce-cart.woocommerce-page table.cart td.actions .coupon .input-text {
+			width: 100% !important;
+			margin-bottom: 12px !important;
+		}
+		.woocommerce-page .woocommerce #respond input#submit,
+		.woocommerce-page .woocommerce a.button,
+		.woocommerce-page .woocommerce button.button,
+		.woocommerce-page .woocommerce input.button {
+			width: 100% !important;
+		}
+		.woocommerce .shop_table.cart .quantity .product_quantity_minus,
+		.woocommerce .shop_table.cart .quantity .product_quantity_plus {
+			display: -moz-stack !important;
+			height: 47px !important;
+			padding: 3px 5px 3px 6px !important;
+			width: 42px !important;
+		}
+
+			.comments-container ul ul {
+			margin:0px !important;
+			padding:0px !important;
+			}
+
+
+	}
+	
+	
+	    /* Note: Design for a width of 480px */ 
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 100% !important;
+	}
+
+	.jx-evont-plan-section {
+		margin-bottom: 40px !important;
+	}
+	
+	.jx-evont-top-bar {
+		display:none !important; 
+	}
+	
+	.menu-footer-menu-container {
+		padding:30px 0px !important;
+	}
+	
+	.jx-evont-footer.jx-footer-2 .jx-evont-social ul {
+		float:none !important;
+	}
+	
+	   			/*===================================================
+		 BOXED WIDTH 
+	====================================================*/
+		
+		.boxed {
+			width:100% !important;
+		}
+		
+		.boxed .jx-evont-header.jx-evont-sticky.fixed {
+			width:100% !important;
+		}
+		
+		.jx-flex-caption .caption-head{
+			font-size: 30px !important;
+		}
+		.jx-flex-caption .caption-head i{
+			font-size: 32px !important;
+		}
+		.jx-flex-caption{
+			right: 25px !important;
+		}
+
+		.jx-flex-caption p{
+			display: none !important;
+		}
+    	.jx-evont-partner-logo-list .bottom-border{
+			margin-left: 245px !important;
+		}
+		.jx-evont-timeline {
+		    margin: 0;
+		    clear: both !important;
+		}
+		.jx-evont-timeline-item {
+		    margin-bottom: 65px;
+		    font-size: 13px !important;
+		    height: 80px;
+		}
+		.jx-evont-timeline .jx-evont-timeline-item .date-position {
+		    float: left !important;
+		}
+		.jx-evont-timeline .item-position {
+		    float: left !important;
+		    width: 75% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		[1.0 Venue ]
+		---------------------------------------------------------------*/
+
+		.jx-venue-1 {
+			margin-bottom:40px;
+		}
+		
+		/*---------------------------------------------------------------
+		[2.0 Contact Address ]
+		---------------------------------------------------------------*/
+		
+		.jx-evont-contact-address {
+		    margin-bottom: 40px;
+		}
+		
+		/*---------------------------------------------------------------
+		[3.0 Newsletter ]
+		---------------------------------------------------------------*/
+
+		.jx-evont-get-updates-2 .subtitle {
+			width:100%;
+		}
+		
+		/*---------------------------------------------------------------
+		[4.0 Partner Logo ]
+		---------------------------------------------------------------*/
+		
+		.jx-evont-partner ul li {
+			width: 50% !important;
+		}
+		
+		/*---------------------------------------------------------------
+		[5.0 Services Box ]
+		---------------------------------------------------------------*/
+
+		.jx-evont-servicebox-1 {
+			margin-bottom:40px;		
+		}
+		
+		/*---------------------------------------------------------------
+		  [6.0 Count down  ]
+		----------------------------------------------------------------*/
+
+		.jx_evont_countdown .jx-evont-countdown-title {
+			font-size: 26px;
+			line-height: 30px;		
+		}
+		.jx_evont_countdown .jx-evont-countdown-subtitle {
+			font-size: 45px;
+			line-height: 45px;
+		}
+		.jx_evont_countdown.sc ul li {
+			margin-right: 20px;
+			padding-right: 20px;
+		}
+		.jx_evont_countdown.sc ul li .count {
+			font-size: 50px;
+			line-height: 40px;
+		}
+		.jx_evont_countdown.sc ul li .count-text {
+			font-size: 28px;
+		}
+		.jx_evont_countdown.sc ul li:last-child .count {
+
+			font-size: 50px;
+		}
+		
+		
+		/*---------------------------------------------------------------
+		  [7.0 Teammember  ]
+		----------------------------------------------------------------*/
+		
+		.grid-item-width2 {
+			width: 50%;
+		}
+		
+		.jx-evont-teammember .overlay .overlay-inner {
+			top:0px;
+		}
+		
+		.jx-evont-teammember h3 {
+			bottom:-100px;
+		}
+
+		.jx-evont-teammember .grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 48.3 !important;
+		}
+
+		.grid-item-width2 {
+			width: 48.3% !important;
+		}
+
+		/*---------------------------------------------------------------
+		[8.0 Testimonials  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-testimonials-1 .item {
+			margin-bottom:40px;
+		}
+		
+		/*---------------------------------------------------------------
+		[9.0 Counter-up  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-countup {
+			margin: auto;
+			width: 250px;
+			margin-bottom: 40px;
+		}
+
+		/*---------------------------------------------------------------
+		[10.0 Footer  ]
+		----------------------------------------------------------------*/
+		
+		.jx-evont-footer.jx-footer-1 .jx-evont-social li i {
+			height: 50px !important;
+			width: 50px !important;
+			font-size: 25px !important;
+			line-height: 50px !important;
+		}
+
+		.jx-evont-footer.jx-footer-1 .jx-evont-social ul li {
+			margin-bottom: 15px !important;
+		}
+
+
+
+
+		/*---------------------------------------------------------------
+		  [13.0 Tagline  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-tagline-2 {
+			margin-bottom: 40px;
+			text-align: center;
+
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-subtitle {
+			font-size: 40px;
+			line-height: 40px;
+		}
+
+		.jx-evont-tagline-2 .jx-evont-tagline-title {
+			font-size: 25px;
+			line-height: 25px;
+		}
+
+		/*---------------------------------------------------------------
+		  [15.0 BLOG  ]
+		----------------------------------------------------------------*/
+
+		.jx-evont-blog-section h3 {
+			font-size: 18px !important;
+		}
+		
+		
+		/*---------------------------------------------------------------
+		  [16.0 Schedule ]
+		----------------------------------------------------------------*/
+		
+		
+		.programs_item h3 {
+			z-index: 9999;
+			position: relative;
+		}
+		
+		.programs_item p {
+			z-index: 9999;
+			position: relative;
+		}
+		
+		.programs_item.style-1 .speaker-image {
+			float: none;
+			margin-left: 0px;
+			margin-right: 0px;
+			position: relative;
+			z-index: 9999;
+		}
+		
+		.programs_item .name {
+			z-index: 9999;
+			position: relative;
+		}
+		
+		.programs_item .des {
+			position: relative;
+			z-index: 9999;
+		}
+
+		.programs_item .left-side {
+			width: 100% !important;
+		}
+
+		.programs_item .right-side {
+			width: 100% !important;
+		}
+		.programs_item.style-2 {
+			padding:0px 0px 0px 15px !important;
+		}
+		.programs_item.style-2 .time {
+			padding: 25px 14px 0px 120px;
+		}
+
+		/*---------------------------------------------------------------
+ 			 [7.0 Protfolio  ]
+		----------------------------------------------------------------*/
+
+		.grid-item:nth-child(1), .grid-item:nth-child(2), .grid-item:nth-child(3) {
+			width: 100% !important;
+		}
+		
+		.grid-item.grid-width-2 {
+			width: 100% !important;
+		}
+		
+		.grid-item {
+			width: 100% !important;
+		}
+
+	
+	
+
+		/*---------------------------------------------------------------
+		[3.0 Newsletter ]
+		---------------------------------------------------------------*/
+			.jx-evont-get-updates {
+				padding: 0px !important;
+			}
+			
+			.jx-evont-get-updates .less_right {
+				padding-right: 0px !important;
+			}
+
+			.jx-evont-get-updates .less_left {
+				padding-left: 15px !important;
+				padding-right:0px !important;
+			}
+
+
+
+		/*---------------------------------------------------------------
+		[3.0 Home SLIDER ]
+		---------------------------------------------------------------*/
+
+
+			.jx-big-date {
+				font-size: 200px !important;
+			}
+			
+			.jx-month-small {
+				padding-top: 12px !important;
+				font-size: 40px !important;
+			}
+			
+			.jx-month-small .slider-year {
+			    font-size: 50px !important;
+			}
+			
+			.jx-month-small .event-title {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 30px !important;
+				left: 50% !important;
+				margin-left: -60px !important;
+			}
+			
+			.jx-month-small .event-ticket-btn {
+				font-size: 20px !important;
+				padding: 15px 80px 15px 30px !important;
+				margin-top: 120px !important;
+				margin-left: -65px !important;
+			}
+			
+			
+			
+			.jx-evont-blog-section h3 {
+				font-size: 20px !important;
+			}
+	
+				.comments-container ul ul {
+			margin:0px !important;
+			padding:0px !important;
+			}
+
+	
+	}
+@media screen and (max-width: 767px) {
+
+    .woocommerce a.remove {
+        display: -moz-stack !important;
+    }
+    .woocommerce-page table.shop_table tr:last-child {
+        height: 190px !important;
+    }
+    .product-thumbnail > a {
+        display: -moz-inline-stack;
+        margin-left: 20px;
+    }
+    .woocommerce-page table.shop_table tr {
+        display: block !important;
+        height: 450px !important;
+    }
+    .shop_table.cart tr:nth-child(2) {
+        height: auto !important;
+    }
+    /* Force table to not be like tables anymore */
+    
+    .woocommerce-page table.shop_table,
+    .woocommerce-page table.shop_table thead,
+    .woocommerce-page table.shop_table tbody,
+    .woocommerce-page table.shop_table th,
+    .woocommerce-page table.shop_table td,
+    .woocommerce-page table.shop_table tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    
+    .woocommerce-page table.shop_table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .woocommerce-page table.shop_table tr {
+        /*border: 1px solid #d2d3d3; */
+    }
+    .woocommerce-page table.shop_table td {
+        /* Behave  like a "row" */
+        
+        border: 1px solid #d2d3d3;
+        position: relative;
+        padding-left: 30% !important;
+    }
+    .woocommerce-page table.shop_table {
+        border: none;
+    }
+    .woocommerce-page table.shop_table td.product-spacer {
+        border-color: #FFF;
+        height: 10px;
+    }
+    .woocommerce-page table.shop_table td:before {
+        /* Now like a table header */
+        
+        position: absolute;
+        /* Top/left values mimic padding */
+        
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    /*
+Label the data
+*/
+    
+    .woocommerce-page table.shop_table td.product-remove:before {
+        content: "DELETE";
+    }
+    .woocommerce-page table.shop_table td.product-thumbnail:before {
+        content: "IMAGE";
+    }
+    .woocommerce-page table.shop_table td.product-name:before {
+        content: "PRODUCT";
+    }
+    .woocommerce-page table.shop_table td.product-price:before {
+        content: "PRICE";
+    }
+    .woocommerce-page table.shop_table td.product-quantity:before {
+        content: "QUANTITY";
+    }
+    .woocommerce-page table.shop_table td.product-subtotal:before {
+        content: "SUBTOTAL";
+    }
+    .woocommerce-page table.shop_table td.product-total:before {
+        content: "TOTAL";
+    }
+    .woocommerce .quantity,
+    .woocommerce #content .quantity,
+    .woocommerce-page .quantity,
+    .woocommerce-page #content .quantity {
+        margin: 0;
+    }
+    .woocommerce-page table.cart td.actions,
+    .woocommerce-page #content table.cart td.actions {
+        text-align: left;
+        border: 0;
+        padding-left: 6px !important;
+    }
+    .woocommerce-page table.cart td.actions .button.alt,
+    .woocommerce-page #content table.cart td.actions .button.alt {
+        float: left;
+        margin-top: 10px;
+    }
+    .woocommerce-page table.cart td.actions div,
+    .woocommerce-page #content table.cart td.actions div,
+    .woocommerce-page table.cart td.actions input,
+    .woocommerce-page #content table.cart td.actions input {
+        margin-bottom: 10px;
+    }
+    .woocommerce-page .cart-collaterals .cart_totals {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+    .woocommerce-page .cart-collaterals .cart_totals th,
+    .woocommerce-page .cart-collaterals .cart_totals td {
+        border: 0 !important;
+    }
+    .woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+    .woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+    .woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+        padding-left: 6px !important;
+    }
+    .woocommerce-page table.shop_table tr.cart-subtotal td,
+    .woocommerce-page table.shop_table tr.shipping td,
+    .woocommerce-page table.shop_table tr.total td,
+    .woocommerce-page table.shop_table.order_details tfoot th,
+    .woocommerce-page table.shop_table.order_details tfoot td {
+        padding-left: 6px !important;
+        border: 0 !important;
+    }
+    .woocommerce-page table.shop_table tbody {
+        padding-top: 10px;
+    }
+    .woocommerce .col2-set .col-1,
+    .woocommerce-page .col2-set .col-1,
+    .woocommerce .col2-set .col-2,
+    .woocommerce-page .col2-set .col-2,
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last {
+        float: none;
+        width: 100%;
+    }
+    .woocommerce .order_details ul,
+    .woocommerce-page .order_details ul,
+    .woocommerce .order_details,
+    .woocommerce-page .order_details {
+        padding: 0;
+    }
+    .woocommerce .order_details li,
+    .woocommerce-page .order_details li {
+        clear: left;
+        margin-bottom: 10px;
+        border: 0;
+    }
+}
+/* END Make the cart table responsive */

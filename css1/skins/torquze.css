@@ -1,0 +1,211 @@
+
+/* ------------------------------------------------------------------------ */
+/* Color */
+/* ------------------------------------------------------------------------ */
+
+body a{
+color:#8ad2d8;
+}
+
+
+ul.default li:before,ul li span.fa,.jx-evont-top-bar,a.login_button:hover,.menu-main-menu-container .menu li i.menu-icon,.menu-main-menu-container .menu li.has-child >  a:after,.jx-evont-subfooter .widget h6 i,.jx-evont-widget-newsletter button:hover i,.jx-evont-blog-more:hover a,.jx-evont-blog-more:hover i,.jx-evont-image-wrapper .jx-evont-blog-btns-hover span a i,.jx-evont-pagination .page-numbers,.jx-evont-related-title a:hover,.jx-evont-page-search #message-submit-1 button:hover i,#sidebar .widget h6 i,.widget h6 i,.widget ul li a:hover,.widget .widget_tag_cloud a:hover,.widget_search input.search-submit:hover,.widget_evont_download .jx-evont-button:hover,.widget_evont_download .jx-evont-button:hover a,.widget_evont_download .jx-evont-button:hover i,.jx-evont-apply-today a,.jx-evont-portfolio-columns .portfolio-item .jx-evont-portfolio-hover,.jx-evont-portfolio-columns .portfolio-item:hover .jx-evont-portfolio-hover,.jx-evont-portfolio-columns .portfolio-item .jx-evont-portfolio-hover a:hover,.jx-evont-auth h3 a,.jx-evont-auth h3 a#show_signup,.jx-evont-auth h3 a#show_login,
+.jx-evont-image-over i:hover,.jx-flex-caption .caption-head i,.jx-evont-servicebox-1:hover .readmore a,.jx-evont-servicebox-2 .readmore a:hover,.jx-evont-banner-1 .banner-caption h1:nth-child(2),.jx-evont-team-member-1 .team-content-box .name a:hover,.jx-evont-team-member-1 .team-content-box .team-social li:hover i,.jx-evont-blog-2 .date i,.jx-evont-blog-2 .date,.jx-evont-tagline-1 h3 span,.jx-evont-contact-info .title,.jx-evont-contact-info .email,.jx-evont-contact-info i,.jx-evont-contact-form button:hover,.jx-evont-currency-2 .jx-title-head,.jx-evont-currency-2 .rate-item,.field-row label,.amount-input .amount,.amount-output .output,.jx-currency-form #submit,.dropdown-menu > li > a , .sbOptions a:hover, .sbOptions a:focus, .sbOptions a.sbFocus , .jx-evont-tagline-1 .tag-title span , .jx-evont-subfooter ul li a:hover , .jx-header-4 .jx-evont-mainmenu > li > a , .jx-evont-counter-up .counter-up-icon , .jx-header-4 a.sign_out:hover , .jx-evont-sendMnyBtn:hover , .jx-evont-support_box .jx-evont-callNowBtn:hover
+{
+	color:#8ad2d8 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Background */
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-mainmenu .submenu li:hover > a , .jx-evont-tagline-1 .button , .jx-header-3 .jx-evont-menubar , .jx-evont-pagination .page-numbers.current , .jx-evont-related-blog-item .jx-bottom-border , .jx-evont-servicebox-1.negative , .jx-default-bg , #sidebar-no .widget_nav_menu .menu-sidebar-menu-container ul li a:hover  {
+	background:#8ad2d8 !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Background Color */
+/* ------------------------------------------------------------------------ */
+
+::selection 
+{
+	background-color:#8ad2d8 !important;
+}
+::-moz-selection
+{
+	background-color:#8ad2d8 !important;
+}
+
+table th,table.style_b th,.jx-evont-default-bg,.jx-evont-top-bar .laguageBtn,.jx-evont-navbar-default .navbar-nav>li>a:focus, .jx-evont-navbar-default .navbar-nav>li>a:hover,.menu-main-menu-container .menu > li:hover > a,.menu-main-menu-container .menu .submenu li:hover > a,.jx-evont-common_page_header h1.pagetitle i,.jx-evont-footer_address,.jx-evont-subfooter .searcharea .btn-default,.jx-evont-widget-newsletter .jx-evont-form-wrapper button,.jx-evont-footer .social a:hover,.jx-evont-blog-more,.jx-evont-image-wrapper .jx-evont-blog-btns-hover span:hover a,.jx-evont-pagination .page-numbers:hover,form input[type="submit"]:hover,.jx-evont-page-search #message-submit-1 button,.widget .widget_tag_cloud a,.widget_search input.search-submit,.jx-evont-sendMnyBtn,.jx-evont-support_box .jx-evont-callNowBtn,.jx-evont-side-nav ul li a:hover,.jx-evont-apply-today a:hover,.jx-evont-portfolio-columns .jx-evont-portfolio-hover:after,.jx-evont-pagination li:hover a,.jx-evont-pagination li.current a,.jx-evont-auth input.submit_button,.jx-evont-slider.flexslider .flex-control-paging li a.flex-active,.jx-evont-servicebox-1:hover,.jx-evont-servicebox-2 .title .side-border ,.bottom-border,.jx-evont-servicebox-4 .title-section .icon,.jx-evont-accordion-1 .head:hover .title,.jx-evont-team-member-1 .image .plus-icon,.jx-evont-team-member-1 .team-content-box .team-social li i,.jx-evont-sendmoney .sendMoney_left,.jx-evont-sendmoney .senBtn,.jx-evont-blog-2 .overlay2 span,#testimonials .name_title,.contact-social ul li:hover i,.jx-currency-form #submit:hover,.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,.jx-evont-careers .jx-evont-careers-item .apply a:hover,.jx-evont-share-box-icon .share-title,.jx-evont-contact-form button , .jx-evont-mainmenu > li:hover > a , .btn-default:hover , .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default
+{
+background-color:#8ad2d8 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Background RGBA Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-image-over i  {
+	background: rgba(138, 210, 216, 0.8) !important;
+}
+
+.circle-bg{
+	background: rgba(138, 210, 216, 0.9) !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Border */
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-title-1 h2:before,.jx-evont-section-title-3 h1:before,.jx-evont-section-title-4 h3:before,.jx-evont-partner-logo-list li:hover .image,.jx-evont-timeline .jx-evont-timeline-item:hover .date-position,.jx-evont-blog-2 .image,.navbar-brand,.menu-main-menu-container .menu > li:hover >.submenu > li.col > ul,.jx-evont-subfooter .searcharea .btn-default,.jx-evont-footer .social a:hover,.jx-evont-blog-title-metabox .jx-evont-date,.jx-evont-image-wrapper .jx-evont-blog-btns-hover span a,.jx-evont-image-wrapper .jx-evont-blog-btns-hover span:hover a,.jx-evont-section-title-4 .jx-evont-title:before,.dropdown-menu , .owl-dots .owl-dot.active
+
+{
+	border-color:#8ad2d8 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Border Right */
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-blog-title-4 .jx-evont-title::before {
+	border-right-color:#8ad2d8 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Border Bottom */
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-mainmenu > li:hover > .submenu > li.col > ul , .jx-header-4 .jx-evont-mainmenu > li:hover > a
+{
+	border-bottom-color:#8ad2d8 !important;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-fontawesome-icon-list li i , .button,button,input[type="reset"],input[type="button"] , table thead th , table th a , .dropdown-menu > li > a:hover , .jx-evont-mainmenu li a:hover i.menu-icon , .jx-evont-mainmenu > li > a , .jx-evont-mainmenu .submenu li:hover > a , .jx-evont-mainmenu li.has-child >  a:hover:after , .jx-evont-mainmenu li.has-child >  a:hover:after , .jx-evont-common_page_header h1.pagetitle , .jx-evont-footer_address .address_column .email , .jx-evont-subfooter h6 , #sidebar-no .widget_nav_menu .menu-sidebar-menu-container ul li a:hover , .jx-evont-footer .social a:hover , .widget_pages ul li:before , .widget_nav_menu ul li:before , .jx-evont-date a , .jx-evont-blog-title-metabox .jx-evont-title a , .jx-evont-blog-meta ul li .jx-meta-value , .jx-evont-blog-meta ul li .jx-meta-value a , .jx-evont-blog-more , .jx-evont-blog-more a , .jx-evont-blog-more i , .jx-evont-image-wrapper .jx-evont-blog-btns-hover span:hover i , .jx-evont-blog-tag li a , .jx-evont-author-details .jx-evont-author-name a , .jx-evont-blog-title-4 .jx-evont-title , .jx-evont-pagination .page-numbers:hover , .jx-evont-pagination .page-numbers.current , .comments-container .right span a , form input[type="submit"]:hover , #sidebar h6 , .widget h6 , .widget ul li a , .widget .widget_tag_cloud a , .widget_evont_download .jx-evont-button a , .jx-evont-sendMnyBtn , .jx-evont-side-nav ul li a:hover , 
+.jx-evont-apply-today a:hover , .jx-evont-pagination li:hover a , .jx-evont-pagination li.current a , .jx-evont-pagination li.current a , .jx-evont-auth h1, .jx-evont-auth h3,.jx-evont-servicebox-3.no-border .icon-box i,.jx-evont-testimonials i,.jx-evont-footer_address h5 , .jx-header-4 a.login_button , .jx-header-4 .jx-evont-topbar-social-icon ul li i:hover , .jx-evont-servicebox-3 .icon-box i , .jx-evont-counter-up .counter-text , .jx-evont-counter-up .count-number , .jx-evont-blog-2.jx-dark .blog-item .title a , .jx-header-3 .jx-evont-mainmenu > li > a , .jx-evont-title-1 h2 , .jx-header-4 a.sign_out , .jx-testimonial-2 .name , .jx-testimonial-2 .description i , .jx-evont-servicebox-1 .icon-box i , .jx-header-3 .jx-evont-header-info .icon
+{
+	color: #3f3d53 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Background
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-top-bar , .jx-evont-mainmenu .submenu li li ul , .slicknav_nav , .jx-evont-widget-newsletter button:hover , .jx-evont-blog-more:hover , .jx-evont-pagination .page-numbers , form input[type="submit"] , .jx-evont-page-search #message-submit-1 button:hover , .widget .widget_tag_cloud a:hover , .widget_search input.search-submit:hover , .widget_evont_download .jx-evont-button:hover , .jx-evont-apply-today a , .jx-evont-pagination li a , .jx-evont-team-content .team-social li:hover i , .jx-header-4 .jx-evont-menubar , .jx-evont-side-nav , #sidebar-no .widget_nav_menu .menu-sidebar-menu-container , .jx-evont-support_box .jx-evont-callNowBtn:hover , .jx-evont-sendMnyBtn:hover
+{
+	background: #3f3d53 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Background Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-darkgrey-bg , .jx-evont-mainmenu li .submenu , .login_overlay , .dropdown-menu , .jx-default-base
+{
+	background-color:#3f3d53 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Border Color
+/* ------------------------------------------------------------------------ */
+
+.button:active,button:active,input[type="submit"]:active,input[type="reset"]:active,input[type="button"]:active 
+{
+	border-color: #3f3d53 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Border Top Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-mainmenu .submenu li li ul , .widget_evont_download .jx-evont-button:hover
+{
+	border-top-color: #3f3d53 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Border Right Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-footer_address .bdr-right
+{
+	border-right-color: #3f3d53 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin - Border Bottom Color
+/* ------------------------------------------------------------------------ */
+
+.jx-header-3 .jx-evont-mainmenu > li:hover > a {
+	border-bottom-color: #3f3d53 !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin 2 - Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-section-title-3 h1 , .jx-evont-section-title-4 h3 , .jx-evont-image-over i , .jx-evont-list li , .jx-flex-caption .caption-head , .jx-flex-caption p , .jx-evont-servicebox-1 .readmore a  , .jx-evont-servicebox-2 .title a , .jx-evont-servicebox-2 .readmore a , .jx-evont-accordion-1 .head:hover .title , .jx-evont-accordion-1 .description , .jx-evont-accordion-1 .jx-evont-accordion-icon:before , .jx-evont-team-member-1 .image a .plus-icon , .jx-evont-team-member-1 .team-content-box .name a , .jx-evont-team-member-1 .team-content-box .team-social li i , .jx-evont-sendmoney .heading , .contact-social ul li i , .contact-social ul li:hover i , .jx-evont-team-member-2 .office a , .jx-evont-careers .jx-evont-careers-item .apply a:hover , .jx-currency-form #submit:hover
+{
+	color: #3f3d53  !important;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin 2 - Background
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-slider.flexslider .flex-control-paging li a , .jx-flex-caption .caption-head i , .jx-evont-servicebox-1:hover .readmore , .jx-evont-accordion-1 .open .title , .jx-evont-banner-1 .banner-caption h1:nth-child(2) , .jx-evont-team-member-1 .team-content-box .team-social li:hover i , .jx-evont-sendmoney .sendMoney_form_right , .owl-dots .owl-dot:hover , .jx-evont-contact-form button:hover , .jx-evont-careers .jx-evont-careers-item .apply a , .jx-evont-currency-2 .jx-title-head
+{
+	background:  #3f3d53 !important;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin 2 - Border Top Color
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-currency-table-1 table tr
+{
+	border-top-color: #3f3d53  !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Base Skin 2 - RGBA Transparent BG
+/* ------------------------------------------------------------------------ */
+
+.jx-evont-servicebox-4 .title-section,.jx-evont-portfolio-columns .portfolio-item .jx-evont-portfolio-hoverlayer , .jx-evont-tint::before
+{
+	background: rgba(63, 61, 83, 0.90) !important;
+}
+
+
+.jx-evont-blog-2 .overlay2 , .jx-evont-servicebox-4 .title-section , .jx-evont-servicebox-4 .title-section, .jx-evont-portfolio-columns .portfolio-item .jx-evont-portfolio-hoverlayer
+{
+background: rgba(63, 61, 83, 0.80) !important;
+}

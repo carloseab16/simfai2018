@@ -1,0 +1,1169 @@
+/*
+* BEREND - Signature Edition | Premium Web Template from Designova
+* Build: Sep 2015;
+* Author: Designova, http://www.designova.net
+* Copyright (C) 2015 Designova
+* This is a premium product. For licensing queries please contact info@designova.net
+*/
+
+
+/* Table of contents
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+- 1. Common
+- 2. Header
+- 3. Footer
+- 4. Navigation
+- 5. Pages
+- 6. Utilities
+*/
+
+
+/* 1. Common
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+    overflow-x: hidden;
+}
+
+p { 
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:focus {
+    outline: none;
+}
+
+/*Preloader*/
+html.preloader-running, body.preloader-running {
+    overflow: hidden;
+}
+
+html.preloader-running .sticky-sidebar {
+    display: block;
+}
+
+div#preloader.signature-berend {
+    background: none repeat scroll 0 0 white;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    z-index: 99999;
+}
+.home-page #preloader{
+    top: 0 !important;
+}
+
+div#preloader.signature-berend.fluidview {
+    left: 0px;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px 80px;
+    margin: -100px 0 0 -100px;
+}
+.main-heading{
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+.main-heading .text-rotator{
+    display: inline-block;
+}
+.sub-heading span{
+    border: solid 2px;
+    padding: 10px;
+    padding-left: 22px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+.promo-text{
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.liner{
+    width: 200px;
+    height: 6px;
+    display: inline-block;
+}
+.liner-small{
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+}
+
+
+/* 2. Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.masthead.signature-berend {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9900;
+    height: 70px;
+
+}
+.main-logo{
+    margin: 18px 0;
+}
+.menu-trigger{
+    margin-top: 10px;
+    display: block;
+}
+.menu-trigger span{
+    font-size: 42px;
+}
+
+/* 3. Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer.mastfoot.signature-berend {
+    padding: 15px 0;
+}
+footer.mastfoot.signature-berend h6{
+    font-size: 14px;
+    line-height: 21px;
+}
+footer.mastfoot.signature-berend p{
+    font-size: 12px;
+    line-height: 19px;
+}
+footer.mastfoot.signature-berend .social{
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+footer.mastfoot.signature-berend .social li{
+    display: inline-block;
+    margin: 0 5px;
+}
+footer.mastfoot.signature-berend .social li a span{
+    font-size: 24px;
+}
+.foot-logo{
+  margin-bottom: 10px;
+}
+
+
+/* 4. Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav.mastnav.signature-berend {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.mastnav-inner-left{
+    width: 50%;
+    float: left;
+    -ms-transform: translate(-100%); /* IE 9 */
+    -webkit-transform: translate(-100%); /* Safari */
+    -o-transform: translate(-100%); /* Opera */
+    transform: translate(-100%);
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.mastnav-inner-right{
+    width: 50%;
+    padding: 0 120px;
+    float: right;
+    -ms-transform: translate(100%); /* IE 9 */
+    -webkit-transform: translate(100%); /* Safari */
+    -o-transform: translate(100%); /* Opera */
+    transform: translate(100%);
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.mastnav-inner-left.slide-to-left {
+    -ms-transform: translate(0); /* IE 9 */
+    -webkit-transform: translate(0); /* Safari */
+    -o-transform: translate(0); /* Opera */
+    transform: translate(0);
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.mastnav-inner-right.slide-to-right {
+    -ms-transform: translate(0); /* IE 9 */
+    -webkit-transform: translate(0); /* Safari */
+    -o-transform: translate(0); /* Opera */
+    transform: translate(0);
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+nav.mastnav.signature-berend ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav.mastnav.signature-berend ul li{
+    margin-bottom: 20px;
+}
+.menu-social{
+  border:none;
+}
+.menu-social li{
+  display: inline-block;
+}
+.menu-social li span{
+  font-size: 24px;
+}
+.menu-credits{
+  margin-top: 50px;
+}
+.sub-menu{
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.sub-menu a{
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+}
+.main-link{
+  font-size: 20px;
+  line-height: 24px; 
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.menu-close-notification span{
+  position: fixed;
+  top: 40px;
+  right: 60px;
+    font-size: 34px;
+    z-index: 9999;
+}
+
+
+/* 5. Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+section.mastwrap.top-spaced {
+    margin-top: 70px;
+}
+.hero h1 span{
+    font-size: 146px;
+    line-height: 146px;
+    border-bottom: solid 12px; 
+}
+/*FEATURES*/
+.features.signature-berend .feature-block{
+}
+.features.signature-berend .feature-block.signature-berend span{
+  font-size: 96px;
+}
+.features.signature-berend .feature-block.signature-berend h3{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+}
+
+/*SERVICES*/
+.services.signature-berend .service-block.signature-berend{
+    text-align: center;
+    padding: 10px 30px;
+}
+.services.signature-berend .service-block.signature-berend span{
+  font-size: 52px;
+}
+.services.signature-berend .service-block.signature-berend h3{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.services.signature-berend .liner-small{
+  margin-bottom: 10px;
+}
+/*SKILLS*/
+.skills.signature-berend .progress-bar{
+    width: 0;
+}
+.skills.signature-berend .progress{
+    height: 10px;
+    box-shadow: none;
+    border-radius: 0;
+}
+.skills.signature-berend .progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+.progress-container.signature-berend{
+    padding: 30px 80px;
+}
+.progress-container.signature-berend h6{
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.progress-container.signature-berend h6 > span{
+    font-size: 36px;
+    line-height: 43px;
+}
+.progress-container.signature-berend h6 > span:before{
+    content: ' / ';
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+    color: #ccc;
+}
+
+/*CLIENTS*/
+.clients-container.signature-berend{
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.clients-container.signature-berend h2{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+.client-logo.signature-berend{
+}
+.client-logo-inner{
+    padding: 40px;
+    opacity: 1;
+    border-right:solid 2px; 
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.client-logo-inner:hover{
+    opacity: 0.5;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.client-logo-row{
+    border-bottom:solid 2px; 
+}
+.client-logo:last-child .client-logo-inner{
+    border-right:none;
+}
+.client-logo-row:last-child{
+    border-bottom:none;
+}
+.client-logo-inner img{
+    width: 100px;
+    display: inline-block !important;
+}
+
+/*NEWS*/
+.news-block, .news-block:hover{
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+/*PROJECT PAGE*/
+.parallax-showcase-overlay{
+  opacity: 0;
+  background-color: rgba(0,0,0,0.8);
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.parallax-showcase:hover .parallax-showcase-overlay{
+  opacity: 1;
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+
+/*CONTACT*/
+
+/*contact form*/
+
+.email-wrap {
+    padding-top: 20px;
+}
+
+.contact-mail {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.contact-form-wrap {
+}
+
+.contact-item {
+}
+
+input {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    font-weight: 600 !important;
+    margin-bottom: 30px !important;
+    padding: 10px 0 !important;
+    width: 100%;
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+input:focus, textarea:focus {
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+textarea {
+    background: url('../images/textarea.png') repeat !important;
+    border: none !important;
+    border-bottom: 2px solid !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 0 !important;
+    resize: none;
+    width: 100%;
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+input, textarea {
+  border-color: #fff !important;
+  color: #fff !important;
+}
+input.send_message {
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    width: 120px;
+}
+
+input.send_message:hover {
+}
+
+fieldset {
+    border: 0 none;
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+fieldset h1 {
+    font-size: 24px;
+}
+
+.contact-label-box {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.contact-label-box > span {
+    display: block;
+    margin-right: 10px;
+}
+
+.contact-label-box > span > img {
+    height: 60px;
+    width: 60px;
+}
+
+.contact-label-box a:hover {
+    text-decoration: none;
+}
+
+.contact .alert {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    text-shadow: none;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.btn-wrap {
+    margin-top: 30px;
+}
+
+.space-left {
+    margin-left: 1%;
+}
+
+.alert {
+    margin-top: 0px;
+    border-radius: 0px;
+    padding: 5px;
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+.alert > p {
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.contact-address {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 21px;
+}
+
+.email-wrap {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+
+
+
+/*WORKS*/
+
+.works-filter-panel.signature-berend{
+  padding: 40px;
+}
+.works-filter-wrap{
+}
+.filter-notification.signature-berend{
+    margin-left: 10px;
+}
+.filter-notification.signature-berend span, .menu-notification span{
+    font-size: 34px;
+    float: right;
+    margin-left: 20px;
+}
+.works-filter.signature-berend{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.works-filter.signature-berend li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.works-filter.signature-berend li a{
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.works-container.signature-berend{
+    padding: 0;
+  margin: 70px auto 0 auto;
+  overflow: hidden;
+}
+.works-filter.signature-berend li:after{
+  content: '/';
+  font-size: 15px;
+  line-height: 23px;
+  margin-left: 20px;
+}
+.works-filter.signature-berend li:last-child:after{
+    display: none;
+}
+
+ .works-item.signature-berend{
+  overflow: hidden;
+ }
+        .info a:hover{
+            cursor: url("../images/plus.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .zoom a:hover{
+            cursor: url("../images/zoom.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .works-item-inner{
+            text-align: left;
+            padding: 0 100px;
+        }
+        .works-thumbnails-view{
+          margin-top: 40px;
+        }
+        .works-thumbnails-view .works-item-inner{
+            text-align: left;
+            padding: 40px;
+        }
+        .works-thumbnails-view .works-item-inner p > span {
+            font-size: 14px;
+            letter-spacing: normal;
+            line-height: 21px;
+            margin-top: 0;
+            border-bottom: solid 5px;
+            padding-bottom: 5px;
+            text-transform: none;
+        }
+        .works-item-inner h3 > span{ 
+            font-size: 12px;
+            letter-spacing: normal;
+            line-height: 19px;
+            text-transform: none;
+            margin-bottom: 5px;
+            border-bottom: solid 2px;
+            font-weight: 200;
+        }
+        .works-item-inner p > span{  
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: 8px;
+            margin-top: 0px;
+            text-transform: uppercase;
+        }
+        .works-item.signature-berend a:hover 
+        .works-item-inner h3{ 
+        }
+        .works-item.signature-berend a:hover 
+        .works-item-inner p{  
+        }
+
+.works-item-fade{
+  opacity: 0.1;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+
+.works-item-fade a{
+  display: none !important;
+}
+.works-masonry-container{
+    padding: 0;
+  margin:0px !important;
+}
+.works-masonry-container .works-item-one-third {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 33.3% !important;
+}
+.works-masonry-container .works-item-two-third {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 66.6% !important;
+}
+.works-masonry-container .works-item-one-half {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50% !important;
+}
+.works-masonry-container .works-item-one-fourth {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 25% !important;
+}
+.works-masonry-container .works-item-full-width {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.works-masonry-container .works-item-one-third-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 31.3% !important;
+}
+.works-masonry-container .works-item-one-half-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 48% !important;
+}
+.works-masonry-container .works-item-two-third-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 64.6% !important;
+}
+.works-masonry-container .works-item-one-fourth-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 23% !important;
+}
+
+
+/* 6. Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Portfolio Isotope Transitions */ 
+
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+
+/* 6. Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Portfolio Isotope Transitions */ 
+
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+.overlay-trans-dark{
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+/*Buttons*/
+.btn-signature {
+  border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-signature-big {
+  border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-signature:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-signature-white {
+  border: none;
+    background: #fff;
+    color: #fff;
+}
+
+.btn-signature-white:hover {
+  border: none;
+    color: #fff;
+}
+
+.btn-signature-dark {
+  border: none;
+    background: #000;
+    color: #fff;
+}
+
+.btn-signature-dark:hover {
+  border: none;
+    color: #fff;
+}
+
+.btn-signature-color {
+  border: none;
+    background: transparent;
+}
+
+.btn-signature-color:hover {
+  border: none;
+}
+
+
+/*Additional Helper Calsses*/
+
+.add-top {
+    margin-top: 120px;
+}
+
+.add-top-half {
+    margin-top: 60px;
+}
+
+.add-top-quarter {
+    margin-top: 30px;
+}
+
+.add-bottom {
+    margin-bottom: 120px;
+}
+
+.add-bottom-half {
+    margin-bottom: 60px;
+}
+
+.add-bottom-quarter {
+    margin-bottom: 30px;
+}
+
+.pad {
+    padding: 60px;
+}
+
+.pad-top {
+    padding-top: 160px;
+}
+
+.pad-top-half {
+    padding-top: 80px;
+}
+
+.pad-top-quarter {
+    padding-top: 40px;
+}
+
+.pad-bottom {
+    padding-bottom: 160px;
+}
+
+.pad-bottom-half {
+    padding-bottom: 80px;
+}
+
+.pad-bottom-quarter {
+    padding-bottom: 40px;
+}
+
+.remove-top {
+    margin-top: 0 !important;
+}
+
+.ease {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.ease:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.no-pad {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+}
+
+.valign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.parallax{    
+    /*css for stellar BG parallax*/
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    position: relative;
+    background-size: cover;
+}
+/*this class will be activated on mobile devices in order to switch off the parallax effect*/
+.parallax-off, .no-parallax {
+  background-attachment:scroll !important;
+  background-size:cover !important;
+  background-position: center center !important;
+  width:100%;
+}
+.no-scroll-xy{
+  overflow: hidden !important;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}
+.poster-img{
+  background:url(../images/poster.jpg) center center no-repeat !important;
+  background-size: cover !important;
+}
+
+
+/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*LESS Compiled to CSS for preview purposes only 
+(Please read PDF guide to manage colors via LESS with just a single line of code editing)*/
+/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.color {
+  color: #fb472e;
+}
+.white {
+  color: #ffffff;
+}
+.silver {
+  color: #f0f4f4;
+}
+.grey {
+  color: #cccccc;
+}
+.dark {
+  color: #292929;
+}
+.black {
+  color: #121212;
+}
+.color-bg {
+  background-color: #fb472e;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.silver-bg {
+  background-color: #f0f4f4;
+}
+.grey-bg {
+  background-color: #cccccc;
+}
+.dark-bg {
+  background-color: #292929;
+}
+.black-bg {
+  background-color: #121212;
+}
+a {
+  color: #121212;
+}
+a:hover {
+  color: #fb472e;
+}
+::selection {
+  background: #fb472e;
+  color: #292929;
+}
+::-moz-selection {
+  background: #fb472e;
+  color: #292929;
+}
+body,
+p {
+  color: #292929;
+}
+.btn-signature-color {
+  background-color: #fb472e !important;
+  color: #ffffff !important;
+}
+.btn-signature-color:hover {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+.btn-signature-dark:hover,
+.btn-signature-white:hover {
+  background-color: #fb472e !important;
+}
+.sub-heading span {
+  border-color: #fb472e;
+}
+.client-logo-inner,
+.client-logo-row {
+  border-color: #fb472e;
+}
+.hero h1 span {
+  border-color: #121212;
+}
+.owl-prev,
+.owl-next {
+  background-color: #121212 !important;
+}
+.works-item-inner {
+  background-color: #fb472e !important;
+}
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.font2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.font3 {
+  font-family: 'Raleway', sans-serif;
+}
+.font4 {
+  font-family: 'Lekton', sans-serif;
+}
+body,
+p {
+  font-family: 'Lekton', sans-serif;
+}
+.btn-signature {
+  font-family: 'Montserrat', sans-serif;
+}
+

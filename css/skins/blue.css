@@ -1,0 +1,111 @@
+/* blue Skin */
+/* ------------------------------------------------------------------------ */
+/* Color
+/* ------------------------------------------------------------------------ */
+.jx-evont-info-content .info-title , .jx-evont-section-title-1 .jx-evont-title-icon i , .jx-evont-servicebox-1 .jx-evont-service-item .service-icon i , .jx-evont-event-schedule .date ,
+.jx-evont-event-schedule .date i , .jx-evont-media-center .date i , .jx-evont-countdown-form .jx-evont-countdown-box h1 , .jx-evont-btn-default.jx-evont-outline , .jx-evont-testimonial-details .jx-evont-testimonial-icon i , .jx-evont-testimonial-content .jx-evont-testimonial-name , a , .jx-evont-price-item.jx-evont-white .jx-evont-price,.jx-evont-price-item.jx-evont-white .jx-evont-package-name,.jx-evont-price-item.jx-evont-white .jx-evont-package-feature , .jx-evont-btn-default.jx-evont-outline i , .jx-evont-readmore a , .jx-evont-blog .title a , .jx-evont-speaker-details .jx-evont-speaker-social ul li:hover i
+{
+	color:#3ea7d7 ;
+}
+a , .jx-evont-page-titlebar .jx-evont-page-titlebar-items .jx-evont-breadcrumb a:hover , .jx-evont-section-title-1 .jx-evont-title-icon i , .jx-evont-info-content .info-title {
+	color:#3ea7d7 !important;
+}
+a:hover {
+	color:#000000 !important;
+}
+.jx-evont-btn-default {
+	color: #ffffff !important;
+}
+.jx-evont-btn-default:hover {
+	color:#ffffff !important;
+}
+.jx-evont-btn-default.jx-evont-outline {
+	color:#3ea7d7 !important;
+}
+.jx-evont-btn-default.jx-evont-outline:hover {
+	color:#ffffff !important;
+}
+/* ------------------------------------------------------------------------ */
+/* Background
+/* ------------------------------------------------------------------------ */
+::selection 
+{
+	background:#3ea7d7 !important;
+}
+::-moz-selection   
+{
+	background:#3ea7d7 !important;
+}
+.jx-evont-servicebox-1 .jx-evont-service-item .service-title-border , .jx-evont-event-schedule .image i , .jx-evont-speaker-details , .grid-item ,
+.jx-evont-newsletter .jx-evont-form-wrapper button , .jx-evont-single-point > a  , .jx-evont-countdown .counter-wrapper li  , .jx-evont-faq .jx-evont-faq-head .jx-evont-faq-title , .jx-evont-contact-form input.jx-evont-submit, .jx-evont-menu .main-menu li:hover , .jx-evont-main-slider .flex-direction-nav a  , .jx-evont-menu .main-menu li a.mPS2id-highlight , .jx-evont-page-titlebar .jx-evont-page-titlebar-items .jx-evont-breadcrumb span.current , .jx-evont-image-container .jx-evont-post-format , .jx-evont-sidebar-widget .jx-evont-right-pattern , .jx-evont-blog-item .flex-control-paging li a.flex-active , .jx-evont-page-search.wide .jx-evont-form-wrapper button , .jx-evont-ticket-form .jx-evont-btn-default , .jx-evont-price-table .jx-evont-price-item , .jx-evont-pagination span.current , #comment-submit , .jx-evont-event-box-register .jx-evont-event-register .jx-evont-btn-default
+{
+	background:#3ea7d7 !important;
+}
+.jx-evont-sponsor .flex-control-nav.flex-control-paging li a , .jx-evont-testimonial .flex-control-nav.flex-control-paging li a , .jx-evont-price-table .jx-evont-price-item , .jx-evont-btn-default
+{
+	background:#3ea7d7;
+}
+.jx-evont-price-item.jx-evont-white{
+  background:#fff !important;   
+}
+	
+/* ------------------------------------------------------------------------ */
+/* Background Color
+/* ------------------------------------------------------------------------ */
+.jx-evont-default-bg , .jx-evont-pricing-switcher .jx-evont-switch , table th , .page-title span , .jx-evont-sidebar-widget .widget_search input.search-submit , .shortcode_tab_e.jx-evont-white-tab.jx-evont-arrow-tab li.resp-tab-active
+{
+	background-color:#3ea7d7 !important;
+}
+/* ------------------------------------------------------------------------ */
+/* Background RGBA Color
+/* ------------------------------------------------------------------------ */
+.jx-evont-event-box .jx-evont-event-date , .jx-evont-event-play {
+	background: rgba(62, 167, 215, 0.90) !important;
+}
+.grid-item .jx-evont-portfolio-hoverlayer  , .jx-evont-media-center .jx-evont-image-wrapper .jx-evont-image-overlay , .jx-evont-blog .jx-evont-image-wrapper .jx-evont-image-overlay {
+	background: rgba(62, 167, 215, 0.80) !important;	
+}
+/* ------------------------------------------------------------------------ */
+/* Border Color
+/* ------------------------------------------------------------------------ */
+.jx-evont-btn-default.jx-evont-outline , .jx-evont-testimonial .flex-control-nav.flex-control-paging li a.flex-active , .jx-evont-sponsor .flex-control-nav.flex-control-paging li a.flex-active , .jx-evont-price-item.jx-evont-white .jx-evont-package-feature li , .jx-evont-blog-item .flex-control-paging li a , .jx-evont-ticket-form .jx-evont-btn-default:hover , .jx-evont-pagination span.current , .jx-evont-pagination a.page-numbers
+	{
+		border-color:#3ea7d7 !important;
+	}
+.jx-evont-faq .jx-evont-faq-head .jx-evont-faq-title::after 
+	{
+	border-color: #3ea7d7 transparent !important;
+	}
+.shortcode_tab_e.jx-evont-white-tab.jx-evont-arrow-tab ul li.resp-tab-active::after 
+{
+	border-color: #3ea7d7 transparent;
+}
+.jx-evont-btn-default {
+	border-color:#3ea7d7;
+}
+/* ------------------------------------------------------------------------ */
+/* Border Left Color
+/* ------------------------------------------------------------------------ */
+.page-title span::before {
+	border-left-color:#3ea7d7 !important;
+}
+/* ------------------------------------------------------------------------ */
+/* Border Right Color
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* Border Top Color
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* Border Bottom Color
+/* ------------------------------------------------------------------------ */
+.resp-tab-item.childtab_1.resp-tab-active , .resp-tab-item.childtab_2.resp-tab-active , .resp-tab-item.childtab_3.resp-tab-active
+ {
+	border-bottom-color:#3ea7d7 !important;
+ }
+/* ------------------------------------------------------------------------ */
+/* Variant Background Color
+/* ------------------------------------------------------------------------ */
+.jx-evont-bg-defualt-1{background-color:#c63f32 !important}
+.jx-evont-bg-defualt-2{background-color:#ad3b30 !important}
+.jx-evont-bg-defualt-3{background-color:#852f27 !important}
+.jx-evont-bg-defualt-4{background-color:#5b1a13 !important}
